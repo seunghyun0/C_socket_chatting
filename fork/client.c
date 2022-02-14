@@ -82,7 +82,6 @@ int main(int argc, char *argv[]){
         }
         printf("login again\n");
     }
-    print(sockfd);
     close(sockfd);
 
     return 0;
